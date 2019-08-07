@@ -34,6 +34,7 @@ focus_tree = {
 		completion_reward = {
 			add_research_slot = 1
 		}
+	}
 	focus = {
 		id = ita_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
