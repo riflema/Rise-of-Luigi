@@ -53,5 +53,24 @@ focus_tree = {
 				category = land_doctrine
 			}
 		}
-	}	
+	}
+	focus = {
+		id = ita_extra_tech_slot_2
+		icon = GFX_focus_research
+		prerequisite = { focus = ita_extra_tech_slot }
+		available = {
+			
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 5
+		y = 1
+		relative_position_id = extra_tech_slot
+		cost = 20
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}	
 }
