@@ -72,13 +72,12 @@ focus_tree = {
 		completion_reward = {
 			add_research_slot = 1
 		}
-	}
-	focus = {
+		focus = {
 		id = ita_nuclear_effort
 		icon = GFX_focus_wonderweapons
 		prerequisite = { ita_extra_tech_slot_2 }
 		x = 5
-		y = 2
+		y = 3
 		cost = 30
 
 		available_if_capitulated = yes
@@ -90,13 +89,3 @@ focus_tree = {
 				category = nuclear
 			}
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}	
-	}
-}
