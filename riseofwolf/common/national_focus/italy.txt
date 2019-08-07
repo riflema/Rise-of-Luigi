@@ -18,8 +18,6 @@ focus_tree = {
 		id = extra_tech_slot
 		icon = GFX_focus_research
 		
-			
-		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		x = 1
