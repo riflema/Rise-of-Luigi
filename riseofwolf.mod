@@ -1,5 +1,5 @@
-﻿name="Rise of Luigi"
-path="mod/riseofluigi"
+﻿name="Rise of the Wolf"
+path="mod/riseofwolf"
 tags={
 	"Alternative History"
 	"National Focuses"
