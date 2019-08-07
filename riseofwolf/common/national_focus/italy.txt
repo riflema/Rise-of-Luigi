@@ -13,4 +13,27 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1100 }
+<<<<<<< HEAD
+=======
+	
+	focus = {
+		id = extra_tech_slot
+		icon = GFX_focus_research
+		
+			
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 1
+		y = 0
+		relative_position_id = extra_tech_slot
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+>>>>>>> e4601db428e8f5e113047432d9ba1118d9c487d6
 )
