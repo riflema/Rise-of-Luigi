@@ -65,7 +65,6 @@ focus_tree = {
 		continue_if_invalid = yes
 		x = 5
 		y = 1
-		relative_position_id = extra_tech_slot
 		cost = 20
 
 		available_if_capitulated = yes
