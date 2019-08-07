@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1100 }
 	
 	focus = {
-		id = ITA_extra_tech_slot
+		id = ita_extra_tech_slot
 		icon = GFX_focus_research
 		prerequisite = {
 
@@ -33,8 +33,24 @@ focus_tree = {
 
 		completion_reward = {
 			add_research_slot = 1
+    {
+			focus = {
+		id = ita_army_effort
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 0
+		cost = 5
 
-		{
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
 	
 		}
 
