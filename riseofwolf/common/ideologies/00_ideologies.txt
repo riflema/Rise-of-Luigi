@@ -253,4 +253,5 @@ ideologies = {
 		can_collaborate = yes
 
 		ai_neutral = no # 
+	}
 }
