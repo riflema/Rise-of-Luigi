@@ -214,7 +214,6 @@ ideologies = {
 			controlled anarchy  = {
 			}
 			
-			
 		}
 
 		dynamic_faction_names = {
