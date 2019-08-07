@@ -25,7 +25,7 @@ focus_tree = {
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 1
+		x = 5
 		y = 0
 		cost = 10
 
@@ -33,5 +33,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_research_slot = 1
+
+		{
+	
 		}
-}
+
+
+		
+(
