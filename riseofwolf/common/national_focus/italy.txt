@@ -17,7 +17,10 @@ focus_tree = {
 	focus = {
 		id = extra_tech_slot
 		icon = GFX_focus_research
-		
+		prerequisite = {}
+		available = {}
+			
+		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		x = 1
@@ -30,5 +33,5 @@ focus_tree = {
 		completion_reward = {
 			add_research_slot = 1
 		}
-	}
+}
 )
