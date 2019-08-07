@@ -29,6 +29,7 @@ set_politics = {
 		
 		anarchist = {
 			popularity = 0
+		}
 	}
 	
 	ruling_party = neutrality
