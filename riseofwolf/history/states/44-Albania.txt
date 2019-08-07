@@ -8,20 +8,20 @@ state={
 		chromium=2 # was: 3
 	}
 	
-	state_category = large city
+	state_category = town
 	
 	history={
 		owner = ALB
 		victory_points = {
-			9914 10
+			9914 5
 		}
 		victory_points = {
-			11767 5
+			11767 1
 		}
 		buildings = {
-			infrastructure = 10
-			arms_factory = 3
-			industrial_complex = 3
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
 			air_base = 3
 			11767 = {
 				naval_base = 4
