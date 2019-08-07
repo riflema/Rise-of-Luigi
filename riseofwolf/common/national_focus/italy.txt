@@ -13,8 +13,6 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1100 }
-<<<<<<< HEAD
-=======
 	
 	focus = {
 		id = extra_tech_slot
@@ -35,5 +33,4 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
->>>>>>> e4601db428e8f5e113047432d9ba1118d9c487d6
 )
