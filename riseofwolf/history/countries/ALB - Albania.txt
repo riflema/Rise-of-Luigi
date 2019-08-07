@@ -20,13 +20,12 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 10
+			popularity = 0
 		}
 		
 		neutrality = { 
-			popularity = 90
+			popularity = 100
 		}
-		
 	}
 	
 	ruling_party = neutrality
