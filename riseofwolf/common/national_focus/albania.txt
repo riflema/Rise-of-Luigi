@@ -44,6 +44,7 @@ focus_tree = {
 		available = {
 
 		}
+		mutually_exclusive = { focus = ALB_Return_to_Parliament } mutually_exclusive = { focus = ALB_Stay_Course } mutually_exclusive = { focus = ALB_Support_National_Unity }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		x = 3
@@ -65,6 +66,7 @@ focus_tree = {
 		available = {
 
 		}
+		mutually_exclusive = { focus = ALB_Stay_Course } mutually_exclusive = { focus = ALB_Support_National_Unity } mutually_exclusive = { focus = ALB_Down_with_King }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		x = 8
@@ -86,6 +88,7 @@ focus_tree = {
 		available = {
 
 		}
+		mutually_exclusive = { focus = ALB_Support_National_Unity } mutually_exclusive = { focus = ALB_Down_with_King } mutually_exclusive = { focus = ALB_Return_to_Parliament }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		x = 14
@@ -107,6 +110,7 @@ focus_tree = {
 		available = {
 
 		}
+		mutually_exclusive = { focus = ALB_Down_with_King } mutually_exclusive = { focus = ALB_Return_to_Parliament } mutually_exclusive = { focus = ALB_Stay_Course }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		x = 19
