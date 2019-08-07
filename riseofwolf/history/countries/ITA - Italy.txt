@@ -86,7 +86,6 @@ if = {
 }
 
 
-give_guarantee = ALB
 
 
 
