@@ -1,22 +1,22 @@
 focus_tree = {
-	id = italian_focus
+	id = albanian_focus
 
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = ITA
+			tag = ALB
 		}
 	}
 	
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1100 }
-	
+
 	focus = {
-		id = ITA_extra_tech_slot
-		icon = GFX_focus_research
+		id = ALB_placeholder
+		icon = GFX_placeholder
 		prerequisite = {
 
 		}
@@ -25,13 +25,14 @@ focus_tree = {
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 1
+		x = 0
 		y = 0
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_research_slot = 1
+			
 		}
+	}
 }
