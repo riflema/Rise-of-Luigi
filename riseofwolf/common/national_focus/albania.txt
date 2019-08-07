@@ -15,8 +15,8 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1100 }
 
 	focus = {
-		id = ALB_placeholder
-		icon = GFX_placeholder
+		id = ALB_Revise_Constitution
+		icon = GFX_focus_hol_the_foundations_of_defense
 		prerequisite = {
 
 		}
@@ -25,14 +25,140 @@ focus_tree = {
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 0
+		x = 11
 		y = 0
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ALB_Down_with_King
+		icon = GFX_focus_rom_abdicate
+		prerequisite = {
+			focus = ALB_Revise_Constitution
+		}
+		available = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 3
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ALB_Communism_Seeded
+		}
+	}
+	focus = {
+		id = ALB_Return_to_Parliament
+		icon = GFX_focus_rom_abdicate
+		prerequisite = {
+			focus = ALB_Revise_Constitution
+		}
+		available = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 8
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ALB_Albanian_Parliament
+		}
+	}
+	focus = {
+		id = ALB_Stay_Course
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = ALB_Revise_Constitution
+		}
+		available = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 14
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = ALB_Support_National_Unity
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = {
+			focus = ALB_Revise_Constitution
+		}
+		available = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 19
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ALB_Supported_National_Unity
+		}
+	}
+	focus = {
+		id = ALB_Fascist_Paramilitaries
+		icon = GFX_focus_generic_little_entente
+		prerequisite = {
+			focus = ALB_Support_National_Unity
+		}
+		available = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 18
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ALB_Fascist_Paramilitaries1
+		}
+	}
+	focus = {
+		id = ALB_Fascist_Government_Members
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = {
+			focus = ALB_Support_National_Unity
+		}
+		available = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 20
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = ALB_Fascist_Government_Members1
 		}
 	}
 }
